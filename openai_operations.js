@@ -5,7 +5,7 @@ export class OpenAIOperations {
     constructor(file_context, openai_key, model_name, history_length) {
         this.messages = [{role: "system", content: file_context}];
         this.openai = new OpenAI({
-            apiKey: openai_key, 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
+            apiKey: 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,
         });
         this.model_name = model_name;
         this.history_length = history_length;
